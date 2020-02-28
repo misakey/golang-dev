@@ -1,4 +1,4 @@
-FROM golang:1.12
+FROM golang:1.14
 
 ENV CGO_ENABLE 0
 ENV GOOS linux
