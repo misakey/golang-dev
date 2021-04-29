@@ -6,4 +6,4 @@ ENV GOARCH amd64
 ENV GO111MODULE on
 
 EXPOSE 5000
-RUN ["go", "get", "github.com/githubnemo/CompileDaemon"]
+RUN ["go", "get", "github.com/githubnemo/CompileDaemon@master"]
